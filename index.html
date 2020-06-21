@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomasz Lewandowski</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/f09c71bffe.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header data-section="home__top" class="header">
+        <nav class="nav">
+            <div class="nav__burger">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times off"></i>
+            </div>
+            <div class="nav__container">
+                <ul class="nav__list">
+                    <li><a class="nav__about" href="#">About me</a></li>
+                    <li><a class="nav__skills" href="#">Skills</a></li>
+                    <li><a class="nav__projects" href="#">Projects</a></li>
+                    <li><a class="nav__contact" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <h2 class="header__title"></h2>
+        <img class="header__image" src="./images/monitor.jpg" alt="header">
+        <div class="slider">
+            <i class="fas fa-long-arrow-alt-left"></i>
+            <i class="fas fa-long-arrow-alt-right"></i>
+            <div class="slider__dots">
+                <span class="dot-active"></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <section data-section="nav__about" class="about">
+        <div class="about__photo about__photo-off">
+            <img src="./images/me.png" alt="me">
+        </div>
+        <div class="about__me about__me-off">
+            <p>Hi!<br />My name is Tomasz Lewandowski. I work in the position „specialist of
+                production”
+                but I
+                would like to
+                change
+                trade to programming. I’m looking for full time job as an Front-End Developer because i like programming
+                and it would help me improve my skills in this aspect. I’ve been learning Front-End skills for about
+                year. I did’t attend on any course. I’m looking for informations on the internet.
+                Since that time I’ve learned many things which you can find in the tab „skills”. I’m going to keep
+                practise
+                JavaScript and React.js and start to learn Node.js.
+                If you are interested in my offer please contact me.
+            </p>
+        </div>
+    </section>
+    <section data-section="nav__skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skills__icons">
+            <i class="fab fa-html5 skills__icons-off"></i>
+            <i class="fab fa-css3 skills__icons-off"></i>
+            <i class="fab fa-sass skills__icons-off"></i>
+            <i class="fab fa-git-alt skills__icons-off"></i>
+            <i class="fab fa-js-square skills__icons-off"></i>
+            <i class="fab fa-react skills__icons-off"></i>
+        </div>
+    </section>
+    <section data-section="nav__projects" class="projects">
+        <h2>projects</h2>
+        <div class="projects__container-main">
+            <div class="projects__container projects__container-store">
+                <h3 class="projects__store">store</h3>
+                <img src="./images/phoneProject.png" alt="phone">
+                <p>Phone store created in React. <span>Tools: context API</span></p>
+                <div class="projects__buttons">
+                    <a href="https://storephonee.netlify.app/" class="projects__btn-store">view demo</a>
+                    <a href="https://github.com/kolkson/phone-store" class="projects__btn-store">view code</a>
+                </div>
+            </div>
+            <div class="projects__container projects__container-budget">
+                <h3 class="projects__budget">budget</h3>
+                <img src="./images/budgetProject.png" alt="phone">
+                <p>Budget App created in React. <span>Tools: redux/hooks/styled-components</span></p>
+                <div class="projects__buttons">
+                    <a href="https://upbeat-jennings-ae4b7f.netlify.app/" class="projects__btn-budget">view demo</a>
+                    <a href="https://github.com/kolkson/budget" class="projects__btn-budget">view code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer data-section="nav__contact" class="contact">
+        <div class="contact__container">
+            <a href="mailto: tomasz.eln90@gmail.com"><i class="far fa-envelope"></i></a>
+            <a href="tel: +48 506-849-037"><i class="fas fa-phone-alt"></i><span>506 849 037</span></a>
+        </div>
+    </footer>
+    <div class="home">
+        <div class="home__top">
+            <i class="fas fa-arrow-circle-up fas-off"></i>
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="jquery.js"></script>
+</body>
+
+</html>
